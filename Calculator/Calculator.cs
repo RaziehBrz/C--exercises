@@ -34,7 +34,7 @@ public class Calculator
                 _result = FirstNumber / SecondNumber;
                 break;
             default:
-                throw new Exception("You entered valid option!");
+                throw new Exception("That was not a valid option");
         }
         Console.WriteLine($"Your result: {FirstNumber} {_operator} {SecondNumber} = {_result}");
     }
